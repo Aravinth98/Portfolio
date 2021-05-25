@@ -1,0 +1,130 @@
+@media(min-width: 768px) {
+    
+    .section1 h1 {
+        font-size: 62px;
+    }
+    .section1 p {
+        font-size: 20px;
+    }
+    .heading {
+        display: inline-block;
+    }
+    .heading h2 {
+        line-height: 60px;
+        font-size: 55px;
+    }
+    .section1 .contact {
+        left: 36%;
+    }
+    .works {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .section5 .works .image {
+        position: relative;
+        overflow: hidden;
+        margin: 0px 20px 20px 20px;
+        height: 250px;
+        width: 300px;
+        float: left;
+    }
+}
+
+@media(min-width: 991px) {
+    .home-decoration {
+        display: block;
+    }
+    .contact-decor {
+        display: block;
+    }
+    .section2 .fullimage {
+        display: block;
+    }
+    .section5 .works .image {
+        position: relative;
+        overflow: hidden;
+        margin: 0px 5px 20px 5px;
+        height: 250px;
+        width: 300px;
+        float: left;
+    }
+}
+
+@media(max-width: 1199Px){
+     #case-1{
+        display: none;
+    }
+    #case-2{
+        display: block;
+    }
+
+}
+@media(min-width: 1200px) {
+    #case-2{
+        display: none;
+    }
+
+    .socialmedias ul li a {
+    }
+    .sticky {
+        display: none;
+    }
+    .leftpage {
+        display: block;
+        transform: translateX(0px);
+        position: -webkit-sticky;
+        position: sticky;
+        width: 20%;
+    }
+    .section2 .contents .aboutme h2 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .section3 p {
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    .fixed {
+        right: 72px;
+        top: 92%;
+    }
+    .main_section .right-page {
+        float: left;
+        width: 80%;
+    }
+    .section1 .contact {
+        left: 45%;
+    }
+    .section1 h1 {
+        font-size: 75px;
+    }
+    .section1 p {
+        font-size: 30px;
+    }
+    .section3 .title {
+        font-size: 35px;
+    }
+    .main_section .leftpage {
+        float: left;
+        text-align: center;
+    }
+    .info-item span {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        border-radius: 50%;
+        color: #fff;
+        background: #f69bac;
+        display: inline-block;
+        margin: 0 20px 0 0;
+        text-align: center;
+    }
+    .info-item p {
+        font-weight: 400;
+    }
+    .leftpage_footer {
+        padding: 40px 0px;
+        margin-top: 40px;
+    }
+    
+}

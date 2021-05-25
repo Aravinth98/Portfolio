@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_section{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+/*  Slide-1  */
+
+.slide-1{
+    width: 300px;
+    height: 250px;
+    background: rgb(174, 91, 59);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.slide-1 .shoe-1{
+    position: absolute;
+    left: 34px;
+    top: -120px;
+    width: 246px;
+    height: 118px;
+    z-index: 1;
+    opacity: 0;
+}
+.slide-1 .head{
+    position: absolute;
+    left: 21px;
+    bottom: 31px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffd900;
+    opacity: 0;
+    z-index: 2;
+}
+.rt_text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.slide-1 .rt_1{
+    position: absolute;
+    right: 18px;
+    bottom: 69px;
+    opacity: 0;
+    z-index: 3;
+}
+.slide-1 .rt_2{
+    position: absolute;
+    right: 34px;
+    bottom: 50px;
+    opacity: 0;
+    z-index: 3;
+}
+.slide-1 .rt_3{
+    position: absolute;
+    right: 14px;
+    bottom: 31px;
+    opacity: 0;
+    z-index: 3;
+}
+.slide-1 .para{
+    position: absolute;
+    bottom: 13px;
+    left: 20px;
+    font-size: 9px;
+    font-weight: 400;
+    color:#cc9c86;
+    opacity: 0;
+    z-index: 3;
+}
+.bg-color{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #a15436;
+    width: 100%;
+    height: 180px;
+    opacity: 0;
+}
+
+/*  Slide-2  */
+
+.slide-2{
+    background: #f1f1f1;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.slide-2 img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 240px;
+    z-index: 2;
+    opacity: 0;
+}
+.head-2{
+    color: rgb(212, 174, 99);
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    right: -20px;
+    top: 14px;
+    opacity: 0;
+    z-index: 1;
+}
+.para-2{
+    position: absolute;
+    top: 129px;
+    right: 33px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 14px;
+    opacity: 0;
+}
+.btn{
+    border: 1px solid rgb(208, 1, 27);
+    color: rgb(208, 1, 27);
+    text-decoration: none;
+    width: 128px; 
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    text-transform: uppercase;
+    right: 20px;
+    border-radius: 5px;
+    bottom: 20px;
+    display: inline-block;
+    padding-left: 5px; 
+    padding-top: 10px;
+    transform: scale(0); 
+}
+
+
+/*  Animation Part  */
+
+.shoe-1-animate{
+    animation: slide_top 1s forwards;
+}
+.bg-color-animate{
+    animation: bg_color 1s forwards;   
+}
+.head-animate{
+    animation: head_text 1s forwards;    
+}
+.rt-1-animate{
+    animation: rt_text_1 0.5s forwards;    
+}
+.rt-2-animate{
+    animation: rt_text_2 0.5s forwards;    
+}
+.rt-3-animate{
+    animation: rt_text_3 0.5s forwards;    
+}
+.para-animate{
+    animation: para_text 1s forwards;    
+}
+.slide-2-animate{
+    animation: slider_2 1s forwards;
+}
+.shoe-2-animate{
+    animation: shoe_2 0.5s forwards;
+}
+.shoe-2-left-animate{
+    animation: shoe_2_left 0.5s forwards;
+}
+.head-2-animate{
+    animation: head_2 0.5s forwards;
+}
+.head-2-right-animate{
+    animation: head_2_right 0.5s forwards;
+}
+.para-2-animate{
+    animation: para_2 0.5s forwards;
+}
+.para-2-right-animate{
+    animation: para_2_right 0.5s forwards;
+}
+.btn-animate{
+    animation: btn 0.5s forwards;
+}
+.btn-right-animate{
+    animation: btn_right 0.5s forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

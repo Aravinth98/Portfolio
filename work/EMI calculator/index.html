@@ -1,0 +1,41 @@
+<html lang="en">
+   <head>
+      <title>EMI calculator</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+   </head>
+   <body>
+      <div class="container">
+         <h2>EMI CALCULATOR</h2>
+         <div class="loan_amount">
+            <label>Loan Amount<span>&#40;Rs.&#41;</span></label>
+            <input type="text" name="loan_amount" id="amount" placeholder="Enter the loan amount">
+         </div>
+         <div class="interest">
+            <label class="label2">Interest<span>&#40;&#37;&#41;</span></label>
+            <input type="text" name="interest" id="int" placeholder="Enter the interest">
+         </div>
+         <div class="loan_period">
+            <label class="label3">Loan Period<span>&#40;months&#41;</span></label>
+            <input class="tenture" type="text" name="loan_period" id="period" placeholder="Enter the loan period">
+         </div>
+         <div class="submit">
+            <button id="submit">Calculate</button>
+         </div>
+         <div id="output">
+            <div>
+               <label class="label4 label5">EMI</label><input type="text" name="result" id="result"> 
+            </div>
+            <div><label class="label4">yearly interest</label><input type="text" name="result2" id="result2"> </div>
+            <div><label class="label4">down payment</label><input type="text" name="result3" id="result3"> </div>
+            <div><label class="label4">total payment</label><input type="text" name="result3" id="result4"> </div>
+            <div class="reset_button"><button type="submit" name="reset" class="reset" id="reset">Reset</button></div>
+         </div>
+      </div>
+      <script src="js/main.js"></script>
+   </body>
+</html>
