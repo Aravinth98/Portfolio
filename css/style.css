@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Georgia", serif;
+    font-family: 'Solway';
     font-size: 16px;
     color: #4b4453;
     font-weight: 300;
@@ -160,39 +160,9 @@ h6 {
 .clear {
     clear: both;
 }
-.face{
-    height: 690px;
-    width: 38%;
-    float: left;
-    background-size: cover;
-}
-#face1{
-    background-image: url("https://i.ibb.co/Ytrr3X0/designer.jpg");
-}
-#face2{
-    background-image: url("https://i.ibb.co/RbBL3kk/developer.jpg");
-    background-position: 100% 0;
-}
-.faces{
-    position: absolute; 
-    left: 29%;
-}
-.text{
-    position: absolute;
-    padding: 10px;
-    top: 40%;
-    z-index: 3;
-}
-#text1{
-    color: blue;
-    left: 40px;
-}
-#text2{
-    color: blue;
-    right: 40px;
-}
+
 .section1 {
-    background-color: #ccf381;
+    background-image: url(https://i.ibb.co/2nxJg34/banner-arvi.jpg);
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
@@ -213,14 +183,13 @@ h6 {
     z-index: 1;
 }
 .section1 .content {
-    background-color: rgba(204, 243, 129, 0.8);
+    background-color: rgba(204, 243, 129, 0.5);
     position: absolute;
     padding: 0px 35px;
     z-index: 6;
-    top: 25px;
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 65%;
     transform: translate(-50%, -50%);
     width: 60%;
     height: 200px;
@@ -233,76 +202,13 @@ iframe {
 }
 
 .section1 h6 {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 500;
-    color: #4831d4;
+    color: #fff;
     line-height: 30px;
 }
-.design-head{
 
-     font-family: "lucida handwriting", cursive;
-    font-size: 60px;
-    color: #ff9999;
-    font-weight: 900px;
-}
-.design-para{
-    font-family: "Brush Script MT", cursive;
-    font-size: 30px;
-}
-.develop-head{
-    font-family: "Lucida Console",monospace;
-    font-size: 65px;
-    color: #ff9999;
-    font-weight: 1800px;
-}
-.develop-para{
-    font-family: "monaco", monospace;
-    font-size: 18px;
-}
-.logo-arv{
-    position: absolute;
-    top: -7px;
-    z-index: 99;
-    background-color: #ff9999;
-    border: 3px solid #fff;
-    padding-right: 100px;
-}
-.logo-arv a img{
-    width: 300px;
-    margin-left: 40px;
-}   
-.section1 .socialmedias {
-    position: absolute;
-    left: 63%;
-    display: inline-block;
-    top: -7px;
-    z-index: 99;
-}
-.socialmedias ul{
-     padding: 10px 0px; 
-    background-color: #ff9999;
-    border: 3px solid #fff;
-    display: inline-block;
-
-}
-
-.socialmedias ul li {
-    margin: -1px 22px 0px 11px;
-    float: left
-}
-.section1-1{
-   background-image: url(../images/arv.JPEG);
-   background-color: #ccf381;
-    height: 100vh;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.section1-1:before {
+.section1:before {
     content: '';
     width: 100%;
     height: 100%;
@@ -312,97 +218,55 @@ iframe {
     background: rgba(210, 192, 192, 0.1);
     z-index: 1;
 }
-.section1-1 .content {
-    background-color: rgba(204, 243, 129, 0.8);
-    position: absolute;
-    padding: 0px 35px;
-    z-index: 6;
-    top: 55%;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    height: 200px;
-    border: 6px solid #4831d4;
-}
 
-.section1-1 iframe {
-    width: 300px;
-    height: 250px;
-}
 
-.section1-1  h6 {
-    font-size: 22px;
-    font-weight: 500;
-    color: #4831d4;
-    line-height: 30px;
-}
-
-.section1-1 h1 {
-    font-size: 40px;
+.section1 .content h1 {
+    font-family: 'Stalinist One';
+    font-size: 60px;
     text-transform: uppercase;
-    color: #4831d4;
+    color: #fff;
     padding: 27px 0 0;
     letter-spacing: 4px;
-    line-height: 44px;
+    line-height: 40px;
     font-weight: 500;
 }
-.section1-1  h1:hover{
+.section1  h1:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
 
-.section1-1  p{
-    font-size: 10px;
-    font-weight: 300;
+.section1 .content  p{
+    font-size: 25px;
+    font-weight: 600px;
     text-transform: uppercase;
     letter-spacing: 16px;
-    color: #4831d4;
+    color: #fff;
     line-height: 20px;
 }
 
-.section1-1 .socialmedia {
+.section1 .socialmedia {
     position: absolute;
-    left:-50px;
-    top: 40%;
+    top: 50%;
     z-index: 99;
     transform: rotate(-90deg);
+    left: -70px;
 }
 
-.section1-1 .socialmedia ul li {
+.section1 .socialmedia ul li {
     display: inline-block;
     margin: 0 4px;
     transform: rotate(-270deg);
 }
 
-.section1-1 .socialmedia ul li a {
+.section1 .socialmedia ul li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     color: #231d2a;
     z-index: 2;
 }
-.section1-1 .socialmedia ul li a:hover {
+.section1 .socialmedia ul li a:hover {
     color: #fff;
-    transition: all 0.2s linear;
-}
-.section1-1 .contact {
-    position: relative;
-    bottom: 10px;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    position: absolute;
-    z-index: 2;
-    text-align: center;
-    margin-bottom: 25px;
-    line-height: 30px;
-}
-.section1-1 .contact a {
-    color: #ff9999;
-    font-weight: 700;
-}
-.section1-1 .contact a:hover {
-    color: #4831d4;
     transition: all 0.2s linear;
 }
 .sticky {
@@ -550,13 +414,6 @@ iframe {
 .fa:hover {
     opacity: 0.7;
 }
-.fa.fa-angle-left{
-    font-size: 27px;
-}
-.fa.fa-angle-right{
-    font-size: 27px;
-}
-
 .fa.fa-facebook {
     background: #3B5998;
     color: #fff;
@@ -640,15 +497,57 @@ iframe {
     height: 100%;
     display: none;
 }
-
-.section2 .fullimage img {
-    border-radius: 30px;
-    width: 90%;
-    margin-left: 15px;
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
 }
 
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front img {
+border: 3px solid #4831d4;    
+margin-left: 40px;
+margin-top: 20px;
+width: 370px;
+height: 600px;
+border-radius: 30px;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+.flip-box-back img{
+border: 3px solid #4831d4;
+margin-left: 40px;
+margin-top: 20px;
+width: 370px;
+height: 600px;
+border-radius: 30px;
+
+}
 .section2 .contents {
-    padding: 35px 20px;
     position: relative;
     z-index: 1;
 }
@@ -680,7 +579,7 @@ iframe {
 }
 
 .biodata {
-    padding-left: 20px;
+    padding-left:0px;
 }
 
 .biodata .items {
@@ -688,10 +587,9 @@ iframe {
 }
 .biodata .items .body{
     color: #ff9999;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 20px;
-    text-align: center;
-    float: right;
+    text-align: left;
 }
 .biodata .items .title {
     color: #4831d4;
@@ -701,15 +599,14 @@ iframe {
 
 .biodata .button {
     margin-top: 90px;
-    margin-left: 170px;
+    margin-left: 60px;
 }
 
 .biodata .button .btn {
     color: #4831d4;
     background: #ccf381;
-    border-color: #4831d4;
-    font-weight: 700;
-    border: 2px solid transparent;
+    font-weight: 700px;
+    border: 2px solid #4831d4;
     padding: 8px 20px;
     border-radius: 20px;
     font-size: 20px;
@@ -782,9 +679,10 @@ iframe {
 }
 
 .section3 .bodyimage img {
+    border: 3px solid #4831d4;
     border-radius: 30px;
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
 
 .topic h3 {
@@ -832,7 +730,7 @@ iframe {
 
 /*section4*/
 .topic h3{
-    color: #000;
+    color: #4831d4;
 }
 
 .skills {
@@ -966,21 +864,13 @@ iframe {
 }
 
 /*section5*/
-.portfolio-loading{
-    width: 350px;
-    height: 247px;
-    background: #000;
-}
-
-
 
 .portfolio .portfolio-title::after {
 background-color:#4831d4;
 bottom:0;
 content:" ";
 height:1px;
-left:0;
-margin:0 auto;
+margin-left:-5px;
 max-width:130px;
 position:absolute;
 right:0;
@@ -1052,7 +942,7 @@ font-size: 20px;
 }
 
 .section5 {
-    padding: 60px 10px;
+    padding: 40px 0px;
 }
 
 .works {
@@ -1151,15 +1041,6 @@ font-size: 20px;
     text-decoration: none;
     max-width: 100%;
 }
-.fa.fa-arrow-right{
-    background: #4831d4;
-    color: #fff;
-    padding: 25px;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    max-width: 100%;
-}
 .about_link{
   background-color: blue;
 }
@@ -1172,12 +1053,12 @@ font-size: 20px;
 /*section6*/
 
 .section6 {
-    padding: 50px 0px;
+    width: 100%;
+    position: relative;
 }
 
-.education {
-    position: relative;
-    padding: 100px 0px;
+.education{
+ 
 }
 
 .education .images img {
@@ -1368,7 +1249,6 @@ font-size: 20px;
     border-radius: 10px;
     height: 120px;
     width: 100%;
-   font-family: "Poppins", sans-serif;
 }
 
 .btn-primary {
@@ -1392,16 +1272,16 @@ font-size: 20px;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
-  font-size: 25px;
+  font-size: 20px;
   border: none;
   outline: none;
   background-color: #4831d4;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 40%;
+  padding: 10px;
+  border-radius: 45%;
 }
 
 #myBtn:hover {
